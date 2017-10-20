@@ -2,10 +2,10 @@ public class Power {
   public static void main(String[] args) {
     int a = 2;
     int b = 4; 
-    int result = 1;
-    for (int i = 0; i < b; i++) {
-        result = result * a;
+    int result = 1; // Die Variable "result" wird dem Wert 1 gegeben, so dass die Variable spaeter genutzt werden kann
+    for (int i = 0; i < b; i++) { // Schleife, in der "i" den Wert 0 zugewiesen bekommt. Solange "i" < "b" wird auf "i" 1 addiert 
+        result = result * a; // "result" wird mit "a" so oft multipliziert, bis "i" = "b" ist. Die Werte von "a" und "b" koennen beliebig veraendert werden
         }
-    system.out.print( "2^4=");
-    system.out.print( result);
+    system.out.print( a + "^" b + "= " ); // system gibt die Werte von "a", "b" und "result" so aus, dass die Variablen "a" und "b" wie in der Rechnung beliebig verändert werden koennen
+    system.out.print( result );
   }}
