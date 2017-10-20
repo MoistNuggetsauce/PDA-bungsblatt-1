@@ -1,13 +1,13 @@
 public class Javarechner {
   public static void main(String[] args) {  
-    int five = 5;
-    int seven = 7;
-    int ergebnis = 0;
-    ergebnis = five * seven;
+    int five = 5; // Variable als Integer unter dem Namen "five" mit dem Wert 5 angegeben
+    int seven = 7; // Variable als Integer unter dem Namen "seven" mit dem Wert 7 angegeben
+    int ergebnis = 0; // Variable für das Ergebnis unter dem Namen "ergebnis" mit dem Wert 0 angegeben
+    ergebnis = five * seven; // "ergebnis" wird dem Wert aus der Multiplikation von five und seven zugeschrieben
     
-    if (ergebnis < 30) {
-    system.out.println ("kleiner")
+    if (ergebnis < 30) {  // if Abfrage, bei der geschaut wird ob der wert von "ergebnis" < 30 ist
+    system.out.println ("kleiner")  // falls "ergebnis" <30 wird "kleiner" ausgegeben
     } else {
-    system.out.println ("groesser")
+    system.out.println ("groesser") //falls "ergebnis" >30 wird "groesser" ausgegeben
     }
 }}
